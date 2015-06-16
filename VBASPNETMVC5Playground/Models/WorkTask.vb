@@ -15,6 +15,6 @@ Public Class MainDbContext
     Inherits DbContext
 
 
-    Public Property WorkTasks As List(Of WorkTask)
+    Public Property WorkTasks() As DbSet(Of WorkTask)
 
 End Class
