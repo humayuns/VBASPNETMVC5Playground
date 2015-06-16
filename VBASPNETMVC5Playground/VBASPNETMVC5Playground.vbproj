@@ -200,6 +200,7 @@
     <Compile Include="App_Start\WebApiConfig.vb" />
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\ManageController.vb" />
+    <Compile Include="Controllers\WorkTasksController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -273,6 +274,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.vbhtml" />
     <Content Include="Views\Shared\Lockout.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
+    <Content Include="Views\WorkTasks\Create.vbhtml" />
+    <Content Include="Views\WorkTasks\Delete.vbhtml" />
+    <Content Include="Views\WorkTasks\Details.vbhtml" />
+    <Content Include="Views\WorkTasks\Edit.vbhtml" />
+    <Content Include="Views\WorkTasks\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
