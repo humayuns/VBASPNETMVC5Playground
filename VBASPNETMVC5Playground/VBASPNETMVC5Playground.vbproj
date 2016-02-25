@@ -23,6 +23,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -208,6 +209,10 @@
       <DependentUpon>201506160121245_InitialCreate.vb</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201506160121245_InitialCreate.vb" />
+    <Compile Include="Migrations\201506161937326_Added_TaskComment.Designer.vb">
+      <DependentUpon>201506161937326_Added_TaskComment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506161937326_Added_TaskComment.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="Models\AccountViewModels.vb" />
     <Compile Include="Models\IdentityModels.vb" />
@@ -234,6 +239,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201506160121245_InitialCreate.resx">
       <DependentUpon>201506160121245_InitialCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506161937326_Added_TaskComment.resx">
+      <DependentUpon>201506161937326_Added_TaskComment.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
